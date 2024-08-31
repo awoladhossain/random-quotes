@@ -1,0 +1,32 @@
+{
+  "name": "random-quote-gen-js",
+  "version": "1.0.0",
+  "description": "if you wants to generate random quotes then you can use this package",
+  "main": "build/index.js",
+  "type": "module",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rm -rf build && tsc"
+  },
+  "keywords": [
+    "React",
+    "js",
+    "Node",
+    "js",
+    "Next",
+    "js",
+    "random",
+    "qoutes",
+    "generator"
+  ],
+  "author": "Awolad Hossain",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "typescript": "^5.5.4"
+  }
+}
